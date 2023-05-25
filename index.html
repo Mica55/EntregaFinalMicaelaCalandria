@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Brindar Salud</title>
+</head>
+<body>
+    <header>
+		<h1 id="Titulo">Brindar Salud</h1>		
+		<nav>
+			<ul>
+				<li class="lista"><a href="#">Inicio</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Nuestros Servicios</h2>
+			<p>En Brindar Salud ofrecemos una amplia variedad de servicios médicos para cuidar de tu salud:</p>
+			<ul>
+				<li>Consultas medicas</li>
+				<li>Analisis clinicos</li>
+			</ul>
+		</section>
+		<section class="Cargadatos">
+			<h2>Solicitud de Turno</h2>
+			<p>Ingrese datos personales:</p>
+			<form id="formulario">
+				<label class="datos" for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre"><br>
+
+				<label class="datos" for="apellido">Apellido:</label>
+				<input type="text" id="apellido" name="apellido"><br>
+
+				<label class="datos" for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label class="datos">Estudios:</label>
+				<select id="estudios" class="form-select" required>
+				<option>Seleccione un estudio para realizarse</option>
+				</select>
+
+				<input id="Enviar" type="submit" value="Enviar">
+			</form>
+		<input class="" id ="centromedico1"type="radio" name ="finalizar" value="Centromedico">
+            <label for="centromedico1">Liniers</label>
+            <input class="" id ="centromedico2"type="radio" name ="finalizar" value="centromedico2">
+            <label for="centromedico2">Ramos mejia</label>
+            <input class="" id ="centromedico3"type="radio" name ="finalizar" value="centromedico3">
+            <label for="centromedico3">San justo</label> 
+			<label for="fecha">Selecione fecha:</label>
+			<input type="date" id="fecha" name="fecha">
+            <button class="" id="centromedicos" type="button" > <b>Direcciones de Centros Medicos</b> </button></a>
+            <br>
+        </section>
+	</main>
+	<footer>
+		<p>Derechos reservados &copy; Brindar Salud</p>
+	</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="script/main.js"></script>
+</html>
